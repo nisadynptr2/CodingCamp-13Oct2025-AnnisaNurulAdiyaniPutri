@@ -1,6 +1,6 @@
 # CodingCamp-13Oct2025-AnnisaNurulAdiyaniPutri
 Hello, there!!
-Hello, everyone! I'm making some simple To-Do List web app for my mini project in Coding Camp - Software Engineering by RevoU
+I'm making some simple To-Do List web app for my mini project in Coding Camp - Software Engineering by RevoU
 
 # To-Do List Web App
 Elegant dark-themed To-Do List web app built with HTML, Tailwind CSS, and JavaScript.
