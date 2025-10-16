@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List Annisa</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <h1><i class="fas fa-clipboard-list"></i> To-Do List</h1>
+
+  <div class="welcome-card">
+    <h2>Hello, Annisa! <i class="fas fa-sun"></i> </h2>
+    <p>Are you ready to be super productive today? <br/> Let's get organized your tasks tidy! </p>
+  </div>
+
+  <form id="todo-form">
+    <input type="text" id="task" placeholder="Add a new task.." required>
+    <input type="date" id="date" required>
+    <button type="submit">Add</button>
+  </form>
+
+  <div class="action-group">
+  <div class="left-group">
+    <select id="statusFilter">
+      <option value="all">All</option>
+      <option value="pending">Pending</option>
+      <option value="completed">Completed</option>
+    </select>
+  </div>
+  <div class="right-group">
+    <button id="deleteAllBtn">DELETE ALL</button>
+  </div>
+</div>
+
+<input type="text" id="filter" placeholder="Search...">
+
+
+  <table id="taskTable">
+    <thead>
+      <tr>
+        <th>TASK</th>
+        <th>DUE DATE</th>
+        <th>STATUS</th>
+        <th>ACTIONS</th>
+      </tr>
+    </thead>
+    <tbody id="taskBody">
+      <tr class="no-task">
+        <td colspan="4">No task found</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
